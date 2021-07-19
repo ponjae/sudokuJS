@@ -22,6 +22,18 @@ input::-webkit-inner-spin-button {
     overflow: hidden;
 }
 
+#solve:active {
+    transform: translate(0,0.1rem);
+}
+
+#about:active {
+    transform: translate(0,0.1rem);
+}
+
+#play:active {
+    transform: translate(0,0.1rem);
+}
+
 .topnav a {
     float: left;
     color: #f2f2f2;
@@ -29,6 +41,12 @@ input::-webkit-inner-spin-button {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    cursor: pointer;
+}
+
+#title {
+    text-align: center;
+    justify-content: center;
 }
 
 .topnav a:hover {
@@ -57,10 +75,10 @@ th, td {
     padding: 0;
 }
 
-input:hover {
+/* input:hover {
     background-color: rgb(182, 177, 177);
     opacity:1.0;
-}
+} */
 
 .cell input {
     display: inline-block;
@@ -78,18 +96,18 @@ input:hover {
 }
 
 tr:nth-child(3n) {
-    border-bottom: 4px solid #000000;
+    border-bottom: 3px solid #000000;
 }
 
 tr:nth-child(3n+1) {
-    border-top: 4px solid #000000;
+    border-top: 3px solid #000000;
 }
 
 td:nth-child(3n) {
-    border-right: 4px solid #000000;
+    border-right: 3px solid #000000;
 }
 
 td:nth-child(3n+1) {
-    border-left: 4px solid #000000;
+    border-left: 3px solid #000000;
 }
 
