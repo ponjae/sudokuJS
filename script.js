@@ -68,4 +68,7 @@ function solveBoard(board) {
 }
 
 let playBoard = initializeBoard()
+playBoard[0][0] = 9
+playBoard[8][8] = 7
 solveBoard(playBoard)
+console.log(playBoard.map(e => "" + e));
